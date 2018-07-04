@@ -1,8 +1,9 @@
 import React from "react";
+
 import { Player } from 'video-react';
 
 
-const Bootstrap = () => (
+const Navbar = () => (
   <div className="container">
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
@@ -113,4 +114,4 @@ const Bootstrap = () => (
   </div>
 );
 
-export default Bootstrap;
+export default Navbar;

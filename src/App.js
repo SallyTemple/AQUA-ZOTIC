@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
-import Bootstrap from "./components/Bootstrap";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import Navbar from "./components/Navbar/Navbar";
 
-const App = () => <Bootstrap />;
+import { Player } from 'video-react';
 
+const App = () => (
+      <div> </div>
 
+);
 
 export default App;
