@@ -1,4 +1,6 @@
 import React from "react";
+import { Player } from 'video-react';
+
 
 const Bootstrap = () => (
   <div className="container">
@@ -26,7 +28,7 @@ const Bootstrap = () => (
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Inventory
+              Inventory <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item dropdown">
@@ -81,6 +83,7 @@ const Bootstrap = () => (
         nostrud tempor eu deserunt ipsum incididunt fugiat esse ipsum. Exercitation nostrud
         exercitation sit ex nostrud aliqua officia magna nostrud deserunt et esse eu deserunt. Non
         dolor consequat qui ea culpa tempor magna nulla consectetur est occaecat.
+        <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css" />
       </p>
     </div>
     <div className="card">
