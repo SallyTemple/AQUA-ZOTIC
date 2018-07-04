@@ -8,18 +8,30 @@ import Inventory from "./components/pages/Inventory";
 import Products from "./components/pages/Products";
 import Relaxation from "./components/pages/Relaxation";
 import Home from "./components/pages/Home";
+import Login from "./components/pages/Login";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
 
 const App = () => (
   <Router>
     <div>
       <NavTabs />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/products" component={Products} />
-      <Route exact path="/relaxation" component={Relaxation} />
-      <Route path="/contact" component={Contact} />
-      <Route exact path="/inventory" component={Inventory} />
-      <Route path="/fishgallery" component={FishGallery} />
-      <Route path="/administration" component={Administration} />
+      <Header>
+        <Title />
+      </Header>
+      <Wrapper>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/products" component={Products} />
+        <Route exact path="/relaxation" component={Relaxation} />
+        <Route path="/contact" component={Contact} />
+        <Route exact path="/inventory" component={Inventory} />
+        <Route path="/fishgallery" component={FishGallery} />
+        <Route path="/administration" component={Administration} />
+        <Route path="/login" component={Login} />
+      </Wrapper>
+      <Footer />
     </div>
   </Router>
 );

@@ -61,6 +61,14 @@ const NavTabs = () => (
       </Link>
     </li>
 
+ <li className="nav-item">
+      <Link
+        to="/login"
+        className={window.location.pathname === "/login" ? "nav-link active" : "nav-link"}>
+        Login
+      </Link>
+    </li>
+
   </ul>
 );
 
