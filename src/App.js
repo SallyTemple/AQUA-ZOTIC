@@ -13,6 +13,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Newsletter from "./components/pages/Newsletter";
+import Search from "./components/pages/Search";
 
 const App = () => (
   <Router>
@@ -30,6 +32,8 @@ const App = () => (
         <Route path="/fishgallery" component={FishGallery} />
         <Route path="/administration" component={Administration} />
         <Route path="/login" component={Login} />
+        <Route path="/newsletter" component={Newsletter} />
+        <Route path="/search" component={Search} />
       </Wrapper>
       <Footer />
     </div>

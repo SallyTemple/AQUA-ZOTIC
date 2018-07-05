@@ -37,6 +37,14 @@ const NavTabs = () => (
       </Link>
     </li>
 
+    <li className="nav-item">
+      <Link
+        to="/newsletter"
+        className={window.location.pathname === "/newsletter" ? "nav-link active" : "nav-link"}>
+        Newsletter
+      </Link>
+    </li>
+
 <li className="nav-item">
       <Link
         to="/relaxation"
@@ -66,6 +74,14 @@ const NavTabs = () => (
         to="/login"
         className={window.location.pathname === "/login" ? "nav-link active" : "nav-link"}>
         Login
+      </Link>
+    </li>
+
+    <li className="nav-item">
+      <Link
+        to="/search"
+        className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}>
+        Search
       </Link>
     </li>
 
