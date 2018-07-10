@@ -15,6 +15,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Newsletter from "./components/pages/Newsletter";
 import Search from "./components/pages/Search";
+import Counter_Home from "./components/Counter_Home/Counter_Home";
 
 const App = () => (
   <Router>
@@ -34,6 +35,7 @@ const App = () => (
         <Route path="/login" component={Login} />
         <Route path="/newsletter" component={Newsletter} />
         <Route path="/search" component={Search} />
+        <Route path="/counter" component={Counter_Home} />
       </Wrapper>
       <Footer />
     </div>
