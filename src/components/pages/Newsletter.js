@@ -10,7 +10,7 @@ const Newsletter = () => (
             There are so many different types of fish that live in the ocean and some of the fish can be deadly to humans and
             some of them can be nice to humans for eample: small fish and dolphins and they can swim right next to you when you
             are in the water. The deadliest fish the live in the ocean is sharks and whales. sharks can be deadly around humans
-            because they ahev sharp teeth that can bite a whole arm off someones body with speed. When someone's blood hits the
+            because they have sharp teeth that can bite a whole arm off someones body with speed. When someone's blood hits the
             ocean water then the shark can smell it from miles way and that is pretty crazy. When the blood goes into the shark's
             nose then the eyes turns black and the person should get out of the water quickly before the shark gets into the
             area. The whale is different from other fish including sharks because of their size. The whales are the biggest
