@@ -8,7 +8,6 @@ const Home = (props) => (
 
     <div className="jumbotron">
       <h1>Aqua-Zotic</h1>
-      <script src='//vws.responsivevoice.com/v/e?key=XdfJjNX3'></script>
 
 
     </div>
