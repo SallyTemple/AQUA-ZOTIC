@@ -24,7 +24,7 @@ const Newsletter = () => (
             feet in length which is really long by my standards.</p>
 
             <p>I believe that there are so many different types of species in the ocean and that is the true most of those species
-            can survive in really bad weather cases. There are some fish that live near the bottom of teh ocean where it is really
+            can survive in really bad weather cases. There are some fish that live near the bottom of the ocean where it is really
             dark that you can not see anything infront of your face. But there is one fish that you need to be carefull with and
             that is the one that has a bulb that is hanging from the head of the fish. The teeth are so big that they can cut
             through your skin as if it was a knife.</p>
