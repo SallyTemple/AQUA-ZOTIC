@@ -1,17 +1,10 @@
 import React from "react";
 import { Player } from 'video-react';
+import Title from "../Title";
+import Header from "../Header";
 
 
 
-const Home = (props) => (
-  <div>
-
-    <div className="jumbotron">
-      <h1>Aqua-Zotic</h1>
-
-
-    </div>
-  </div>
 );
 
 export default Home;
