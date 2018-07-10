@@ -20,11 +20,11 @@ const App = () => (
   <Router>
     <div>
       <NavTabs />
-      <Header>
+      <Header >
         <Title />
       </Header>
       <Wrapper>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Home}></Route>
         <Route exact path="/products" component={Products} />
         <Route exact path="/relaxation" component={Relaxation} />
         <Route path="/contact" component={Contact} />
