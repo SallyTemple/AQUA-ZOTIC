@@ -10,7 +10,7 @@ const Home = (props) => (
           <Title />
         </Header>
      
-          <img src="https://i.ytimg.com/vi/--ztGaF4m2U/maxresdefault.jpg " alt="W3Schools.com"/>
+          <img src="https://i.ytimg.com/vi/--ztGaF4m2U/maxresdefault.jpg " alt="Internet"/>
 
       <div className="jumbotron">
   
